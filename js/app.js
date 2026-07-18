@@ -15,8 +15,17 @@ const state = {
 };
 
 async function loadJSON(path) {
-  const response = await fetch(path);
-  return response.json();
+  try {
+    const response = await fetch(path, { cache: 'no-store' });
+    if (!response.ok) throw new Error(`HTTP ${response.status}`);
+    return await response.json();
+  } catch (error) {
+    if (window.SECURITY_HUB_DATA && window.SECURITY_HUB_DATA[path]) {
+      return window.SECURITY_HUB_DATA[path];
+    }
+    console.error(`Failed to load ${path}:`, error);
+    return [];
+  }
 }
 
 function setTheme(theme) {
