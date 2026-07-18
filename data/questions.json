@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "domain": "General Security Concepts",
+    "difficulty": "easy",
+    "question": "What is the primary purpose of encryption?",
+    "options": ["To speed up network traffic", "To prevent unauthorized access to data", "To replace authentication", "To disable malware"],
+    "correctAnswer": "To prevent unauthorized access to data",
+    "explanation": "Encryption protects confidentiality by making data unreadable without the proper key.",
+    "relatedObjective": "1.1 Explain the importance of confidentiality, integrity, and availability"
+  },
+  {
+    "id": 2,
+    "domain": "Threats, Vulnerabilities & Mitigations",
+    "difficulty": "medium",
+    "question": "Which attack commonly involves phishing emails?",
+    "options": ["DoS", "Social engineering", "Brute force", "SQL injection"],
+    "correctAnswer": "Social engineering",
+    "explanation": "Phishing relies on deception to trick users into exposing information or performing actions.",
+    "relatedObjective": "2.1 Compare and contrast common threat actors"
+  },
+  {
+    "id": 3,
+    "domain": "Security Architecture",
+    "difficulty": "hard",
+    "question": "What does MFA provide?",
+    "options": ["Single-factor authentication", "Network segmentation", "Multiple authentication factors", "Automatic patching"],
+    "correctAnswer": "Multiple authentication factors",
+    "explanation": "MFA requires more than one proof of identity to strengthen account security.",
+    "relatedObjective": "3.1 Implement secure authentication methods"
+  }
+]

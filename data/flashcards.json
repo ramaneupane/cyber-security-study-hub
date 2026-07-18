@@ -1,0 +1,6 @@
+[
+  {"id": 1, "domain": "General Security Concepts", "front": "What does CIA stand for?", "back": "Confidentiality, Integrity, Availability"},
+  {"id": 2, "domain": "Security Operations", "front": "What port is HTTPS?", "back": "443"},
+  {"id": 3, "domain": "Security Architecture", "front": "What is MFA?", "back": "Multi-Factor Authentication"},
+  {"id": 4, "domain": "Threats, Vulnerabilities & Mitigations", "front": "What is a zero-day vulnerability?", "back": "A previously unknown vulnerability with no patch yet"}
+]

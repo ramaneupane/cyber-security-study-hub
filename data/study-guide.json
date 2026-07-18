@@ -1,0 +1,66 @@
+[
+  {
+    "title": "General Security Concepts",
+    "description": "Foundational principles and the CIA triad.",
+    "points": [
+      "Confidentiality protects information from unauthorized disclosure.",
+      "Integrity ensures data is not modified without authorization.",
+      "Availability keeps systems and data accessible when needed."
+    ],
+    "examTip": "Remember the CIA triad for broad security questions.",
+    "commonMistake": "Confusing confidentiality with integrity.",
+    "labs": [
+      {"title": "Phishing Investigation", "description": "Inspect a suspicious email and identify indicators of compromise.", "outcome": "Recognize phishing clues and response steps."},
+      {"title": "Log Analysis", "description": "Review generated system logs to identify anomalies.", "outcome": "Correlate events to suspicious activity."}
+    ]
+  },
+  {
+    "title": "Threats, Vulnerabilities & Mitigations",
+    "description": "Common attack types and defensive measures.",
+    "points": [
+      "Threats are potential events that exploit vulnerabilities.",
+      "Vulnerabilities are weaknesses in systems or processes.",
+      "Mitigations reduce risk through controls and best practices."
+    ],
+    "examTip": "Map each threat to a likely mitigation.",
+    "commonMistake": "Treating malware and phishing as the same category.",
+    "labs": []
+  },
+  {
+    "title": "Security Architecture",
+    "description": "Designing secure systems and networks.",
+    "points": [
+      "Use segmentation and least privilege to reduce attack surface.",
+      "Apply encryption and strong authentication to protect resources.",
+      "Design for defense-in-depth.",
+      "Endpoint, network, and application security should be layered."
+    ],
+    "examTip": "Favor layered defenses over single controls.",
+    "commonMistake": "Assuming a firewall alone is sufficient.",
+    "labs": []
+  },
+  {
+    "title": "Security Operations",
+    "description": "Monitoring, detection, and incident response fundamentals.",
+    "points": [
+      "Monitoring tools like SIEM help correlate events.",
+      "Incident response uses preparation, detection, containment, eradication, and recovery.",
+      "Logs are essential for analysis and auditing."
+    ],
+    "examTip": "Know the order of incident response steps.",
+    "commonMistake": "Skipping containment during an active incident.",
+    "labs": []
+  },
+  {
+    "title": "Security Program Management & Oversight",
+    "description": "Governance, policies, and risk management.",
+    "points": [
+      "Risk management balances business goals and security needs.",
+      "Policies, procedures, and awareness programs support compliance.",
+      "Security training reduces human error and strengthens culture."
+    ],
+    "examTip": "Link governance to risk and compliance objectives.",
+    "commonMistake": "Ignoring the human element in policy success.",
+    "labs": []
+  }
+]

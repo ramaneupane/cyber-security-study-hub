@@ -1,0 +1,8 @@
+[
+  {"term": "CIA", "definition": "Confidentiality, Integrity, Availability"},
+  {"term": "MFA", "definition": "Multi-Factor Authentication"},
+  {"term": "SIEM", "definition": "Security Information and Event Management"},
+  {"term": "VPN", "definition": "Virtual Private Network"},
+  {"term": "IDS", "definition": "Intrusion Detection System"},
+  {"term": "IPS", "definition": "Intrusion Prevention System"}
+]

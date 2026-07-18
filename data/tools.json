@@ -1,0 +1,6 @@
+[
+  {"name": "Wireshark", "purpose": "Packet capture and analysis", "useCases": "Investigating network traffic and troubleshooting", "advantages": "Powerful protocol inspection", "limitations": "Requires expertise to interpret results"},
+  {"name": "Nmap", "purpose": "Network discovery and scanning", "useCases": "Host and service enumeration", "advantages": "Fast and flexible", "limitations": "Can trigger security alerts"},
+  {"name": "Nessus", "purpose": "Vulnerability scanning", "useCases": "Identifying known weaknesses", "advantages": "Large plugin library", "limitations": "License costs for some features"},
+  {"name": "Metasploit", "purpose": "Penetration testing framework", "useCases": "Validating exploits and security posture", "advantages": "Extensive exploitation modules", "limitations": "Misuse can be illegal without authorization"}
+]
